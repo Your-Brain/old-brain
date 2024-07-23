@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
+  font-family: "Anta", sans-serif;
+}
+body {
+  background-color: #1a1a1a;
+}
+.conText {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(45, 41, 116, 0.564);
+}
+.wrapper {
+  position: relative;
+  width: 50%;
+  height: 350px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.263);
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.oneDiv {
+  width: 30%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roundBig {
+  width: 85%;
+  height: 56%;
+  border-radius: 50%;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roundSmall {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+}
+.roundSmall img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.twoDiv {
+  margin-top: 20px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  /* align-items:; */
+  justify-content: space-evenly;
+  /* background-color: brown; */
+}
+.my1 {
+  width: 92%;
+  height: 30%;
+  /* background-color: #f5af19; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.srink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4px;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+.nameCon {
+  width: 190px;
+  height: 100%;
+  /* background-color: rgb(132, 88, 73); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperName {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f12711; */
+  /* border-right: 4px solid #000; */
+}
+.wrapperName .line {
+  font-weight: bolder;
+  font-size: 1.9rem;
+  color: #1e1f13;
+}
+.wrapperName span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #111111;
+  font-family: "Madimi One", sans-serif;
+  font-family: "Anta", sans-serif;
+}
+.wrapperName p::after {
+  content: "";
+  position: absolute;
+  left: 58%;
+  top: 85px;
+  width: 4px;
+  height: 50px;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(#f5af19, #f12711);
+}
+.wrapperName p {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+}
+.conLogo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  /* background-color: rgb(38, 172, 156); */
+}
+.conLogo ul {
+  /* background-color: #281513; */
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* font-size: 1.5rem; */
+  list-style: none;
+}
+.conLogo ul li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  background-color: #515151b7;
+}
+.conLogo ul li a {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+  color: #eee;
+}
+.conLogo ul li .color1 :hover {
+  scale: 2;
+  color: #3d87ff;
+  transition: 0.5s linear;
+}
+.conLogo ul li .color2 :hover {
+  scale: 2;
+  color: #3d87ff;
+  transition: 0.5s linear;
+}
+.conLogo ul li .color3:hover {
+  scale: 2;
+  color: #000000;
+  transition: 0.5s linear;
+}
+.conLogo ul li .color4 :hover {
+  scale: 2;
+  color: #3d87ff;
+  transition: 0.5s linear;
+}
+.conLogo ul li .color5:hover {
+  scale: 2;
+  color: #35a34d;
+  transition: 0.5s linear;
+}
+
+.my2 {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  /* background-color: #605846; */
+}
+.my2::before {
+  content: "";
+
+  position: absolute;
+  left: 27.5%;
+  top: 195px;
+  /* left:; */
+  width: 70%;
+  height: 5px;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.data1 {
+  width: 7.8rem;
+  height: 100%;
+  /* background-color: #f5af19; */
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1px;
+  align-items: center;
+}
+.logo1 {
+  width: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.logoData1 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ae04a8; */
+}
+.logoData1 a {
+  /* margin-left: 9px; */
+  color: #eee;
+  text-decoration: none;
+}
+
+.data2 {
+  width: 7.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1px;
+
+  /* background-color: #191816; */
+}
+.logo2 {
+  width: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+.logoData2 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: #3a2139; */
+}
+.logoData2 a {
+  /* margin-left: 9px; */
+  color: #eee;
+  text-decoration: none;
+}
+.data3 {
+  width: 7.8rem;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1px;
+
+  /* background-color: #f5af19; */
+}
+.logo3 {
+  width: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+.logoData3 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ae04a8; */
+}
+.logoData3 a {
+  text-decoration: none;
+  /* margin-left: 9px; */
+  color: #eee;
+}
+.my3 {
+  /* background-color: #f12711; */
+  width: 90%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrappeR {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* background-color: #35a34d; */
+}
+.logoI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 50%;
+  /* background-color: #f12711; */
+}
+.roun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f12711, #f5af19);
+  border-radius: 50%;
+}
+.roun img {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logoD {
+  /* background-color: chocolate; */
+  width: 80%;
+  height: 50%;
+  display: flex;
+}
+.icon {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f12711; */
+}
+.icondaTa {
+  width: 90%;
+  /* background-color: #f111b5; */
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for devices with a maximum width of 767px (commonly used for mobile devices) */
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+    height: 60vh;
+  }
+  .oneDiv {
+    /* background-color: #f12711; */
+    width: 40%;
+    height: 100%;
+  }
+  .roundBig {
+    width: 70%;
+    height: 20%;
+  }
+  .roundSmall {
+    width: 90%;
+    height: 90%;
+  }
+  .my1 {
+    /* background-color: #35a34d; */
+    width: 90%;
+    /* height: 50%; */
+  }
+  .srink {
+    gap: 20px;
+    /* background-color: #f12711; */
+  }
+  .wrapperName span:nth-child(1) {
+    font-size: 2em;
+  }
+  .wrapperName span:nth-child(2) {
+    font-size: 2em;
+  }
+  .conLogo {
+    width: 100%;
+  }
+  ul {
+    /* flex-wrap: wrap; */
+    /* background-color: aliceblue; */
+    width: 100%;
+
+    gap: 16px;
+  }
+  .my1 {
+    margin-top: -29px;
+  }
+  .my2 {
+    margin-top: -5px;
+    height: 10%;
+    /* background-color: #f12711; */
+  }
+  .wrapperName p::after {
+    display: none;
+  }
+  .my2::before {
+    left: 25%;
+    width: 73%;
+  }
+
+  /* Your mobile styles go here */
+}
